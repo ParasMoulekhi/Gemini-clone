@@ -156,13 +156,15 @@
 @media (max-width: 600px) {
   .main-bottom input {
     flex: none;
-    width: 245px;
+    width: 176px;
   }
   .main-bottom img {
     width: 20px;
   }
   .search-box {
     padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
   }
   .search-box div {
     gap: 4px;
