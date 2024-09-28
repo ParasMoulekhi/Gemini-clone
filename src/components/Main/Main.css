@@ -3,6 +3,12 @@
   min-height: 100vh;
   padding-bottom: 15vh;
   position: relative;
+  background-color: #f3f4f6; /* Soft, neutral light gray background */
+  background: -webkit-linear-gradient(
+    16deg,
+    #d3eaff,
+    #ffdde1
+  ); /* Subtle gradient with light blue and soft pink */
 }
 .main .nav {
   display: flex;
@@ -134,12 +140,8 @@
 .loader hr {
   border-radius: 4px;
   border: none;
-  background-color: #f6f7f8; /* Light grayish background */
-  background: -webkit-linear-gradient(
-    16deg,
-    #9acfff,
-    #ff9f95
-  ); /* Lighter gradient */
+  background-color: #f6f7f8;
+  background: -webkit-linear-gradient(16deg, #9acfff, #ff9f95);
   background-size: 800px 50px;
   height: 20px;
   animation: loader 3s infinite linear;
